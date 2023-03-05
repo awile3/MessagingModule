@@ -16,17 +16,9 @@
 		<Item Name="Msg.Event.Destroy.vi" Type="VI" URL="../Msg/Msg.Event.Destroy.vi"/>
 		<Item Name="Msg.Event.Fire.vi" Type="VI" URL="../Msg/Msg.Event.Fire.vi"/>
 		<Item Name="Msg.Event.Ref.ctl" Type="VI" URL="../Msg/Msg.Event.Ref.ctl"/>
-		<Item Name="Msg.Event.Register.lvtest" Type="TestItem" URL="../Msg/Msg.Event.Register.lvtest">
-			<Property Name="utf.test.bind" Type="Str">MessagingModule.lvlib:Msg.Event.Register.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">E7064764-A826-452F-D52E-10B881955D2A</Property>
-		</Item>
 		<Item Name="Msg.Event.Register.vi" Type="VI" URL="../Msg/Msg.Event.Register.vi"/>
 		<Item Name="Msg.Event.RegRef.ctl" Type="VI" URL="../Msg/Msg.Event.RegRef.ctl"/>
 		<Item Name="Msg.Event.Unregister.vi" Type="VI" URL="../Msg/Msg.Event.Unregister.vi"/>
-		<Item Name="Msg.Init.lvtest" Type="TestItem" URL="../Msg/Msg.Init.lvtest">
-			<Property Name="utf.test.bind" Type="Str">MessagingModule.lvlib:Msg.Init.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">94F99091-F0CE-6A5A-8960-CDCA2316C72F</Property>
-		</Item>
 		<Item Name="Msg.Init.vi" Type="VI" URL="../Msg/Msg.Init.vi"/>
 		<Item Name="Msg.Noti.Obtain.vi" Type="VI" URL="../Msg/Msg.Noti.Obtain.vi"/>
 		<Item Name="Msg.Noti.Ref.ctl" Type="VI" URL="../Msg/Msg.Noti.Ref.ctl"/>
