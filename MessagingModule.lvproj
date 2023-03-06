@@ -14,6 +14,9 @@
 		<Item Name="00_Trash" Type="Folder" URL="../00_Trash">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="builds" Type="Folder" URL="../builds">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="UnitTests" Type="Folder" URL="../UnitTests">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -31,7 +34,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC2DE3EF-DBAC-47B5-8B34-D55BCE71142A}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MessagingModule.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -43,7 +46,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D15249E-2C05-4532-86A6-67DA9B7D479B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{581B8781-0B6A-4DBF-AF50-E06AEFD75054}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MessagingModule.lvlib</Property>
