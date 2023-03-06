@@ -14,9 +14,6 @@
 		<Item Name="00_Trash" Type="Folder" URL="../00_Trash">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="builds" Type="Folder" URL="../builds">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="UnitTests" Type="Folder" URL="../UnitTests">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -46,7 +43,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B800908F-2151-4A17-AE64-2CBCB1B5C3FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D15249E-2C05-4532-86A6-67DA9B7D479B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MessagingModule.lvlib</Property>
