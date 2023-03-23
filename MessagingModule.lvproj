@@ -14,9 +14,6 @@
 		<Item Name="00_Trash" Type="Folder" URL="../00_Trash">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="builds" Type="Folder" URL="../builds">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="UnitTests" Type="Folder" URL="../UnitTests">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -24,7 +21,6 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MessagingModuleLibrary" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{38D76131-9565-4BFA-84E4-828ACC5BE5FC}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">This is a packed library of the messaging module.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MessagingModuleLibrary</Property>
@@ -34,8 +30,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC2DE3EF-DBAC-47B5-8B34-D55BCE71142A}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MessagingModule.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -46,7 +43,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{581B8781-0B6A-4DBF-AF50-E06AEFD75054}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E6AA917B-969F-4ACE-83AE-A00C641DFF94}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MessagingModule.lvlib</Property>
