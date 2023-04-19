@@ -4,44 +4,4 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.1.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Examples" Type="Folder">
-		<Item Name="MessagingClassExample.vi" Type="VI" URL="../Examples/MessagingClassExample.vi"/>
-		<Item Name="Multiple Loops with Notifiers.vi" Type="VI" URL="../Examples/Multiple Loops with Notifiers.vi"/>
-	</Item>
-	<Item Name="Msg" Type="Folder">
-		<Item Name="Events" Type="Folder">
-			<Item Name="Msg.Event.Create.vi" Type="VI" URL="../Msg/Msg.Event.Create.vi"/>
-			<Item Name="Msg.Event.Destroy.vi" Type="VI" URL="../Msg/Msg.Event.Destroy.vi"/>
-			<Item Name="Msg.Event.Fire.vi" Type="VI" URL="../Msg/Msg.Event.Fire.vi"/>
-			<Item Name="Msg.Event.Ref.ctl" Type="VI" URL="../Msg/Msg.Event.Ref.ctl"/>
-			<Item Name="Msg.Event.Register.vi" Type="VI" URL="../Msg/Msg.Event.Register.vi"/>
-			<Item Name="Msg.Event.RegRef.ctl" Type="VI" URL="../Msg/Msg.Event.RegRef.ctl"/>
-			<Item Name="Msg.Event.Unregister.vi" Type="VI" URL="../Msg/Msg.Event.Unregister.vi"/>
-		</Item>
-		<Item Name="Notifiers" Type="Folder">
-			<Item Name="Msg.Noti.Obtain.vi" Type="VI" URL="../Msg/Msg.Noti.Obtain.vi"/>
-			<Item Name="Msg.Noti.Ref.ctl" Type="VI" URL="../Msg/Msg.Noti.Ref.ctl"/>
-			<Item Name="Msg.Noti.Release.vi" Type="VI" URL="../Msg/Msg.Noti.Release.vi"/>
-			<Item Name="Msg.Noti.Send.vi" Type="VI" URL="../Msg/Msg.Noti.Send.vi"/>
-			<Item Name="Msg.Noti.Wait.vi" Type="VI" URL="../Msg/Msg.Noti.Wait.vi"/>
-		</Item>
-		<Item Name="Queues" Type="Folder">
-			<Item Name="Msg.Q.Dequeue.vi" Type="VI" URL="../Msg/Msg.Q.Dequeue.vi"/>
-			<Item Name="Msg.Q.DequeueMode.ctl" Type="VI" URL="../Msg/Msg.Q.DequeueMode.ctl"/>
-			<Item Name="Msg.Q.Enqueue.vi" Type="VI" URL="../Msg/Msg.Q.Enqueue.vi"/>
-			<Item Name="Msg.Q.EnqueueMode.ctl" Type="VI" URL="../Msg/Msg.Q.EnqueueMode.ctl"/>
-			<Item Name="Msg.Q.Flush.vi" Type="VI" URL="../Msg/Msg.Q.Flush.vi"/>
-			<Item Name="Msg.Q.Obtain.vi" Type="VI" URL="../Msg/Msg.Q.Obtain.vi"/>
-			<Item Name="Msg.Q.Ref.ctl" Type="VI" URL="../Msg/Msg.Q.Ref.ctl"/>
-			<Item Name="Msg.Q.Release.vi" Type="VI" URL="../Msg/Msg.Q.Release.vi"/>
-		</Item>
-		<Item Name="SubVis" Type="Folder">
-			<Item Name="Msg.Init.vi" Type="VI" URL="../Msg/Msg.Init.vi"/>
-		</Item>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="Msg.Data.ctl" Type="VI" URL="../Msg/Msg.Data.ctl"/>
-			<Item Name="Msg.Refs.ctl" Type="VI" URL="../Msg/Msg.Refs.ctl"/>
-		</Item>
-	</Item>
-	<Item Name="Messaging.lvclass" Type="LVClass" URL="../Messaging/Messaging.lvclass"/>
 </Library>
